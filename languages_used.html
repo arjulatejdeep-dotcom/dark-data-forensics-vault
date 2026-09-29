@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dark Data Forensics Vault - Languages & Technology Stack</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 18mm 18mm 18mm 18mm;
+    }
+    body {
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+      color: #1e293b;
+      line-height: 1.5;
+      margin: 0;
+      padding: 0;
+      background: #ffffff;
+      font-size: 13px;
+    }
+    .header-banner {
+      background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 50%, #311042 100%);
+      color: #ffffff;
+      padding: 24px;
+      border-radius: 12px;
+      margin-bottom: 24px;
+      box-shadow: 0 4px 12px rgba(15, 23, 42, 0.15);
+    }
+    .header-banner h1 {
+      margin: 0 0 6px 0;
+      font-size: 24px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      color: #38bdf8;
+    }
+    .header-banner .subtitle {
+      font-size: 13px;
+      color: #cbd5e1;
+      margin: 0 0 12px 0;
+    }
+    .meta-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      font-size: 11px;
+      color: #94a3b8;
+      border-top: 1px solid rgba(255, 255, 255, 0.15);
+      padding-top: 10px;
+    }
+    .meta-bar span {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .meta-bar strong {
+      color: #f8fafc;
+    }
+
+    h2 {
+      font-size: 15px;
+      color: #0f172a;
+      border-bottom: 2px solid #e2e8f0;
+      padding-bottom: 6px;
+      margin: 20px 0 12px 0;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .category-card {
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 14px;
+      margin-bottom: 14px;
+      page-break-inside: avoid;
+    }
+    .category-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 8px;
+    }
+    .category-title {
+      font-size: 14px;
+      font-weight: 700;
+      color: #1e293b;
+    }
+    .badge {
+      display: inline-block;
+      padding: 3px 8px;
+      font-size: 10px;
+      font-weight: 600;
+      border-radius: 9999px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .badge-primary { background: #e0f2fe; color: #0369a1; }
+    .badge-frontend { background: #fef3c7; color: #b45309; }
+    .badge-data { background: #dcfce7; color: #15803d; }
+    .badge-devops { background: #f3e8ff; color: #7e22ce; }
+    .badge-native { background: #fee2e2; color: #b91c1c; }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 12px;
+      margin-top: 6px;
+    }
+    th {
+      text-align: left;
+      padding: 8px 10px;
+      background: #f1f5f9;
+      color: #475569;
+      font-weight: 600;
+      border-bottom: 1px solid #cbd5e1;
+    }
+    td {
+      padding: 8px 10px;
+      border-bottom: 1px solid #e2e8f0;
+      vertical-align: top;
+    }
+    tr:last-child td {
+      border-bottom: none;
+    }
+    .lang-name {
+      font-weight: 700;
+      color: #0f172a;
+      white-space: nowrap;
+    }
+    .pill {
+      display: inline-block;
+      padding: 1px 6px;
+      font-size: 10px;
+      font-weight: 600;
+      border-radius: 4px;
+      background: #e2e8f0;
+      color: #334155;
+    }
+    .footer {
+      margin-top: 24px;
+      padding-top: 12px;
+      border-top: 1px solid #e2e8f0;
+      font-size: 11px;
+      color: #64748b;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .footer a {
+      color: #0284c7;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header-banner">
+    <h1>🛡️ Dark Data Forensics Vault</h1>
+    <div class="subtitle">Complete Technical Languages & Systems Architecture Specification Report</div>
+    <div class="meta-bar">
+      <span><strong>Author:</strong> Tejdeep Reddy Arjula</span>
+      <span><strong>Repository:</strong> github.com/arjulatejdeep-dotcom/dark-data-forensics-vault</span>
+      <span><strong>Version:</strong> v1.0.0</span>
+      <span><strong>License:</strong> MIT Open Source</span>
+      <span><strong>Date:</strong> September 2026</span>
+    </div>
+  </div>
+
+  <h2>1. Core Backend Programming Language</h2>
+  <div class="category-card">
+    <div class="category-header">
+      <div class="category-title">☕ Java (Java 21 LTS)</div>
+      <span class="badge badge-primary">Primary Runtime (100% of Backend)</span>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th style="width: 25%;">Component / File</th>
+          <th style="width: 25%;">Language Feature</th>
+          <th>Technical Role & Functional Implementation</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="lang-name">ForensicDataVault.java</td>
+          <td><span class="pill">JCA MessageDigest</span><br/><span class="pill">Streams API</span></td>
+          <td>Ingests multi-modal files, parses Slack JSON & CSVs, calculates root SHA-256 digests, and generates recursive 1000-token chunks with 150-token overlaps.</td>
+        </tr>
+        <tr>
+          <td class="lang-name">ForensicQueryEngine.java</td>
+          <td><span class="pill">HttpClient (HTTP/2)</span><br/><span class="pill">LangChain4j</span></td>
+          <td>Local RAG orchestration with Ollama (mistral/llama3), Dynamic Pre-Flight Connection Guard (1200ms ping), and strict SHA-256 evidentiary prompt modifiers.</td>
+        </tr>
+        <tr>
+          <td class="lang-name">OnlineDataMapper.java</td>
+          <td><span class="pill">ByteArrayStreams</span><br/><span class="pill">Regex Parsers</span></td>
+          <td>In-memory RAM-only streaming client for U.S. SEC EDGAR filings (10-K / 8-K) with <code>diskBypassed: true</code>, leaving zero temporary disk footprints.</td>
+        </tr>
+        <tr>
+          <td class="lang-name">RiskAssessmentRecord.java</td>
+          <td><span class="pill">Java 21 Records</span></td>
+          <td>Immutable data carrier for detected corporate liabilities (e.g. $18.5M Cayman SPE debt, CFO Slack concealment directives).</td>
+        </tr>
+        <tr>
+          <td class="lang-name">ForensicWebUI.java</td>
+          <td><span class="pill">Javalin 6.1</span><br/><span class="pill">Jetty Microserver</span></td>
+          <td>REST API routing, dynamic port collision fallback (automatically resolves port 8080 collision and binds to port 8085).</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>2. Frontend & User Interface Technologies</h2>
+  <div class="category-card">
+    <div class="category-header">
+      <div class="category-title">🌐 Client-Side Web Stack</div>
+      <span class="badge badge-frontend">Zero-Dependency Interactive UI</span>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th style="width: 20%;">Language</th>
+          <th style="width: 30%;">File Location</th>
+          <th>Implementation Purpose</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="lang-name">HTML5</td>
+          <td><code>src/main/resources/public/index.html</code></td>
+          <td>Semantic layout for real-time telemetry gauges, the Operation BlackBriar fraud walkthrough, and query consoles.</td>
+        </tr>
+        <tr>
+          <td class="lang-name">CSS3</td>
+          <td>Embedded in <code>index.html</code></td>
+          <td>Modern dark-mode aesthetic, glowing forensic status badges (Critical, High, Medium), animated loaders, and responsive grid layout.</td>
+        </tr>
+        <tr>
+          <td class="lang-name">JavaScript (ES6+)</td>
+          <td>Client script in <code>index.html</code></td>
+          <td>Asynchronous <code>fetch()</code> calls to REST endpoints, real-time metrics polling, and interactive state management for the 4-step fraud case loader.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>3. Data Serialization & Structured Interchange Formats</h2>
+  <div class="category-card">
+    <div class="category-header">
+      <div class="category-title">📊 Structured Data Formats</div>
+      <span class="badge badge-data">Ingestion & Telemetry</span>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th style="width: 20%;">Format</th>
+          <th style="width: 30%;">Usage in Project</th>
+          <th>Functional Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="lang-name">JSON</td>
+          <td>REST Payloads & Slack Dumps</td>
+          <td>Structured schema for REST endpoints (<code>/api/stats</code>, <code>/api/query</code>), Slack conversation dumps (<code>internal_slack_dev_channel.json</code>), and DevContainer configs.</td>
+        </tr>
+        <tr>
+          <td class="lang-name">CSV</td>
+          <td>Offshore Liability Ledgers</td>
+          <td>Tabular data extraction for unrecorded off-balance sheet transactions (<code>offshore_unrecorded_liabilities.csv</code>, <code>fraud_case_offshore_spe_ledger.csv</code>).</td>
+        </tr>
+        <tr>
+          <td class="lang-name">XML</td>
+          <td><code>pom.xml</code></td>
+          <td>Apache Maven Project Object Model defining dependencies, LangChain4j BOM, ONNX runtime, and build compilation plugins.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>4. DevOps, Automation & System Scripting</h2>
+  <div class="category-card">
+    <div class="category-header">
+      <div class="category-title">⚙️ CI/CD & Deployment Languages</div>
+      <span class="badge badge-devops">Cloud Automation</span>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th style="width: 20%;">Language</th>
+          <th style="width: 30%;">Workflow / Script</th>
+          <th>Execution Context</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="lang-name">YAML</td>
+          <td><code>.github/workflows/ci.yml</code></td>
+          <td>GitHub Actions workflow automating JDK 21 installation, dependency caching, ONNX vector verification tests, and release JAR packaging.</td>
+        </tr>
+        <tr>
+          <td class="lang-name">PowerShell / Bash</td>
+          <td><code>update_path.ps1</code> & Codespaces hooks</td>
+          <td>Portable Git and GitHub CLI (gh) configuration, environment variable manipulation, and 1-click cloud container startup scripts.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>5. Native Machine Inference & Documentation Languages</h2>
+  <div class="category-card">
+    <div class="category-header">
+      <div class="category-title">🧠 Native Engine & Documentation</div>
+      <span class="badge badge-native">Performance & Architecture</span>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th style="width: 20%;">Language</th>
+          <th style="width: 30%;">Component</th>
+          <th>Technical Application</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="lang-name">C++ (via JNI)</td>
+          <td>ONNX Runtime Native Engine</td>
+          <td>Pre-compiled C++ binaries accessed through Java Native Interface (JNI) to run the <code>bge-small-en-v1.5</code> neural embedding model at native machine speeds.</td>
+        </tr>
+        <tr>
+          <td class="lang-name">Markdown (GFM)</td>
+          <td><code>README.md</code>, <code>enterprise_showcase.md</code></td>
+          <td>Comprehensive technical documentation, Shields.io live badges, and 5-section executive pitch presentation.</td>
+        </tr>
+        <tr>
+          <td class="lang-name">Mermaid</td>
+          <td>Architecture diagrams in README</td>
+          <td>Diagram-as-code specification rendering interactive multi-agent topology flowcharts directly inside GitHub.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="footer">
+    <span>Dark Data Forensics Vault &copy; 2026 Tejdeep Reddy Arjula</span>
+    <span>GitHub: <a href="https://github.com/arjulatejdeep-dotcom/dark-data-forensics-vault">arjulatejdeep-dotcom/dark-data-forensics-vault</a></span>
+  </div>
+
+</body>
+</html>
