@@ -1,5 +1,8 @@
 # Dark-Data-Forensics-Vault
 
+[![Java CI with Maven](https://github.com/arjulatejdeep-dotcom/dark-data-forensics-vault/actions/workflows/ci.yml/badge.svg)](https://github.com/arjulatejdeep-dotcom/dark-data-forensics-vault/actions/workflows/ci.yml)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/arjulatejdeep-dotcom/dark-data-forensics-vault)
+
 > **Zero-Budget, Local Multi-AI Java Stack for Air-Gapped Dark Data Forensics & Audit Intelligence**
 
 A production-grade, 100% offline, air-gapped forensic AI platform powered by **Java 21**, **LangChain4j**, native **ONNX** embeddings (`bge-small-en-v1.5`), and local **Ollama** LLMs (`mistral` / `llama3`).
