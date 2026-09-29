@@ -1,0 +1,4 @@
+TransactionID,Entity,AmountUSD,Status,Notes,TargetDisposalDate
+TX-9901,Apex Cayman Holdings,1250000,UNRECORDED,Undisclosed severance guarantees for executive board,2024-12-31
+TX-9902,Zurich Escrow Trust,820000,CONTINGENT,Unfiled intellectual property infringement settlement,2025-01-15
+TX-9903,Panama Special Ops Ltd,3400000,OFF_SHEET,Unhedged synthetic derivatives position,2024-11-30

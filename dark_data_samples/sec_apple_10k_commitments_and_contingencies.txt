@@ -1,0 +1,21 @@
+UNITED STATES SECURITIES AND EXCHANGE COMMISSION
+WASHINGTON, D.C. 20549
+FORM 10-K - ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+COMPANY: APPLE INC. (CIK: 0000320193)
+
+PART II. ITEM 8. NOTES TO CONSOLIDATED FINANCIAL STATEMENTS
+NOTE: COMMITMENTS AND CONTINGENCIES - LEGAL PROCEEDINGS & COMMERCIAL LIABILITIES
+
+1. Legal Proceedings and Antitrust Matters:
+The Company is subject to ongoing legal proceedings, claims, and governmental investigations regarding antitrust compliance, patent licensing fees, commercial disputes, and consumer privacy practices worldwide:
+- European Commission State Aid Decision and Digital Markets Act (DMA) compliance reviews regarding App Store commission models, developer fee structures, and default browser choice mandates.
+- United States Department of Justice (DOJ) Civil Antitrust Litigation alleging monopolization or attempted monopolization in smartphone markets, cross-platform messaging restrictions, and mobile wallet NFC restrictions.
+- In the opinion of management, there was not at least a reasonable possibility the Company may have incurred a material loss, or a material loss greater than a recorded accrual, concerning loss contingencies for asserted legal and other claims. However, litigation is inherently unpredictable, and adverse judgments, injunctions, or administrative fines could materially harm operating margins, developer ecosystem revenues, and consolidated financial results.
+
+2. Supplier Commitments and Capital Asset Purchase Obligations:
+The Company utilizes third-party outsourced manufacturing partners (including Hon Hai / Foxconn, Pegatron, and TSMC). The Company maintains unconditional commitments for the procurement of custom silicon wafer tooling, display modules, and memory components.
+- Outstanding unconditional purchase obligations across component suppliers total approximately $29.8 billion across multi-year cycles.
+- Lease liabilities for Apple Retail Store locations and corporate facilities exceed $11.2 billion in future minimum operating lease commitments.
+
+3. Term Debt and Senior Notes Obligations:
+The Company has issued fixed and floating rate senior unsecured notes with aggregate principal liabilities exceeding $95 billion across varied maturity tranches ranging from 2024 through 2062, requiring recurring semi-annual interest disbursements.

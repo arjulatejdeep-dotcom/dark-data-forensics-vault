@@ -1,0 +1,27 @@
+UNITED STATES SECURITIES AND EXCHANGE COMMISSION
+WASHINGTON, D.C. 20549
+FORM 10-K - ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+COMPANY: TESLA, INC. (CIK: 0001318605)
+
+PART II. ITEM 8. FINANCIAL STATEMENTS AND SUPPLEMENTARY DATA
+NOTE: COMMITMENTS AND CONTINGENCIES - LEGAL PROCEEDINGS & GOVERNMENT INQUIRIES
+
+1. Government Inquiries, Investigations, and Subpoenas:
+The Company regularly receives requests for information, including subpoenas, from regulators and governmental authorities such as the National Highway Traffic Safety Administration (NHTSA), the National Transportation Safety Board (NTSB), the Securities and Exchange Commission ("SEC"), the Department of Justice ("DOJ"), and various local, state, federal, and international agencies. These inquiries and formal subpoenas have requested materials and testimony concerning:
+- Operations and consumer compliance
+- Technology features, vehicle functionality, and reported vehicle incidents
+- Autopilot, Full Self-Driving ("FSD") Capability, and autonomous vehicle operations
+- Personal benefits, executive compensation, and related-party transactions
+- Vehicle range estimations, battery performance, and software update disclosures
+
+The Company is cooperating with these ongoing government investigations. To the Company's knowledge, no government agency in any such ongoing inquiry has concluded that any actionable wrongdoing occurred. However, the Company cannot predict the outcome or financial impact of any such proceedings. If the DOJ, SEC, NHTSA, or other regulatory authorities were to pursue an enforcement action, the Company could be subject to material civil or criminal penalties, substantial fines, injunctive relief, reputational injury, or required modifications to vehicle features and production lines.
+
+2. Commercial Litigation and Intellectual Property Claims:
+The Company is subject to patent infringement claims, commercial contract disputes, trade secret claims, and employment litigation in the ordinary course of business. In several jurisdictions, plaintiffs have asserted class-action claims alleging product liability, battery degradation, and deceptive advertising regarding Autopilot capability.
+
+3. Purchase Obligations and Raw Material Commitments:
+As of the balance sheet date, the Company had non-cancelable purchase commitments totaling billions of dollars across critical supply chains, including:
+- Long-term lithium hydroxide and nickel supply agreements
+- Semiconductor manufacturing allocation reservation agreements
+- Battery cell procurement commitments with Panasonic, CATL, and LG Energy Solution
+In the event of a material downturn in global electric vehicle demand, these take-or-pay purchase obligations could create significant unrecorded financial liabilities or require substantial termination penalties.

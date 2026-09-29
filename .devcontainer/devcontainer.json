@@ -1,0 +1,19 @@
+{
+  "name": "Dark Data Forensics Vault",
+  "image": "mcr.microsoft.com/devcontainers/java:1-21-bookworm",
+  "features": {
+    "ghcr.io/devcontainers/features/java:1": {
+      "version": "21",
+      "installMaven": "true"
+    }
+  },
+  "forwardPorts": [8085, 8080],
+  "postCreateCommand": "curl -fsSL https://ollama.com/install.sh | sh && mvn dependency:resolve",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscjava.vscode-java-pack"
+      ]
+    }
+  }
+}

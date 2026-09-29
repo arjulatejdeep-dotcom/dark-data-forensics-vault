@@ -1,0 +1,35 @@
+name: Java CI with Maven & Forensic Vault Verification
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  pull_request:
+    branches: [ "main", "master" ]
+  workflow_dispatch:
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out repository
+      uses: actions/checkout@v4
+
+    - name: Set up JDK 21
+      uses: actions/setup-java@v4
+      with:
+        java-version: '21'
+        distribution: 'temurin'
+        cache: maven
+
+    - name: Verify Offline ONNX Embedding & Vault Logic
+      run: mvn test --batch-mode
+
+    - name: Package Vault Binary (JAR)
+      run: mvn package -DskipTests --batch-mode
+
+    - name: Upload Build Artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: dark-data-forensics-vault-jar
+        path: target/*.jar
